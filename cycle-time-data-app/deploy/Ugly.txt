@@ -3,10 +3,10 @@
 <head>
     <title>Cycle Time Data</title>
     <!--  (c) 2016 CA Technologies.  All Rights Reserved. -->
-    <!--  Build Date: Thu Aug 13 2020 08:54:59 GMT-0400 (EDT) -->
+    <!--  Build Date: Thu Aug 13 2020 10:15:10 GMT-0400 (EDT) -->
     
     <script type="text/javascript">
-        var APP_BUILD_DATE = "Thu Aug 13 2020 08:54:59 GMT-0400 (EDT)";
+        var APP_BUILD_DATE = "Thu Aug 13 2020 10:15:10 GMT-0400 (EDT)";
         var CHECKSUM = [%= checksum %];
     </script>
     

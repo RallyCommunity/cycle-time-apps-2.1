@@ -130,7 +130,7 @@ Ext.define('CArABU.technicalservices.CycleTimeDataStore',{
                 }
             ],
             useHttpPost: this.USE_POST,
-            sorters: [],
+            sortConfig: {},
             hydrate: this._getHydrateFields(),
             compress: true,
             removeUnauthorizedSnapshots: true

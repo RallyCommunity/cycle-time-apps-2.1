@@ -3,12 +3,12 @@
 <head>
     <title>Cycle Time Data</title>
     <!--  (c) 2016 CA Technologies.  All Rights Reserved. -->
-    <!--  Build Date: Thu Aug 13 2020 08:52:27 GMT-0400 (EDT) -->
+    <!--  Build Date: Thu Aug 13 2020 10:15:08 GMT-0400 (EDT) -->
     
     <script type="text/javascript">
-        var APP_BUILD_DATE = "Thu Aug 13 2020 08:52:27 GMT-0400 (EDT)";
+        var APP_BUILD_DATE = "Thu Aug 13 2020 10:15:08 GMT-0400 (EDT)";
         var BUILDER = "wds";
-        var CHECKSUM = 180169555720;
+        var CHECKSUM = 180187863287;
     </script>
     
     <script type="text/javascript" src="/apps/2.1/sdk.js"></script>
@@ -692,7 +692,7 @@ Ext.define('CArABU.technicalservices.CycleTimeDataStore',{
                 }
             ],
             useHttpPost: this.USE_POST,
-            sorters: [],
+            sortConfig: {},
             hydrate: this._getHydrateFields(),
             compress: true,
             removeUnauthorizedSnapshots: true
